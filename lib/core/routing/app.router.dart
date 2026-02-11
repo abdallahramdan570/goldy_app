@@ -1,14 +1,15 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/widgets.dart';
+import 'package:goldy/core/persentation/home_screan.dart';
 import 'package:goldy/core/routing/routes.dart';
 
 class AppRouter {
   Route generateRoute(RouteSettings settings) {
     switch (settings.name) {
-      case AppRouters.home:
+      case Routers.homeScreen:
         return MaterialPageRoute(
           builder: (context) {
-            return HomeScreen();
+            return HomeScrean();
           },
         );
         default :

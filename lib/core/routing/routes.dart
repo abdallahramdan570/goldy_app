@@ -1,6 +1,6 @@
-class AppRouters {
-  static const String home = '/homescreen';
-  static const String details = '/details';
+class Routers {
+  static const String homeScreen = '/homescreen';
+ 
 
 
 }

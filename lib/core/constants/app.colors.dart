@@ -1,6 +1,9 @@
+import 'package:flutter/material.dart';
+
 class AppColors
  {
-static const primaryColor = 0xFF6200EE;
-static const secondaryColor = 0xFF03DAC5;
+static const kGoldColor = Color(0xffeec430);
+static const kSilverColor = Color(0xffc0c0c0);
+
 
 }
