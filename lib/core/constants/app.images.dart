@@ -1,4 +1,4 @@
 class AppImages {
-  static const String logo = 'assets/images/logo.png';
+  static const String goldImages = 'assets/images/gold.webp';
   static const String background = 'assets/images/background.png';
 }
